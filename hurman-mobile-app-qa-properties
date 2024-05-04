@@ -44,9 +44,9 @@ spring.redis.lettuce.shutdown-timeout=2000
 # Name of the Redis server
 spring.redis.sentinel.master=hurman-mobile-server
 # Specify the Sentinel nodes
-spring.redis.sentinel.nodes=sentinel1-host:26379,sentinel2-host:26379,sentinel3-host:26379
+#spring.redis.sentinel.nodes=sentinel1-host:26379,sentinel2-host:26379,sentinel3-host:26379
 # Redis database index
-spring.redis.database=0
+#spring.redis.database=0
 # Redis password if set
 #spring.redis.password=yourpassword
 
